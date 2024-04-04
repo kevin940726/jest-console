@@ -10,10 +10,12 @@
   "typings": "index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "require": "./dist/index.js",
       "default": "./src/index.js"
     },
     "./pure": {
+      "types": "./pure.d.ts",
       "require": "./dist/pure.js",
       "default": "./src/pure.js"
     }
